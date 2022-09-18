@@ -118,3 +118,4 @@ def workout_iter(
             yield Workout(week_num, w_key, _date, exercises[w_key])
             for e in _exercises:
                 e.increment()
+        date = date + timedelta(weeks=1)

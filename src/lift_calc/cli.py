@@ -58,7 +58,6 @@ def run(
         print("Warmup sets must be 3 or 4. Don't over or under do it !")
         sys.exit(1)
 
-    print(rep_scheme)
     sets, reps = [int(num) for num in rep_scheme.split("x")]
 
     _squat = Exercise(
